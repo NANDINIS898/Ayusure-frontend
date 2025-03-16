@@ -1,0 +1,40 @@
+.vertical-navbar {
+    width: 250px;
+    background-color:rgb(208, 233, 170);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .vertical-navbar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: darkgreen;
+  }
+  
+  .nav-button {
+    padding: 0px;
+    background-color:rgb(208, 233, 170);
+    color:darkgreen;
+    height: 10%;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    text-align: left;
+
+    transition: background 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #5b9b23;
+  }
+  
+  
+  
+  .logout:hover {
+    background-color: #5b9b23;
+
+  }
+  

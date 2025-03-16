@@ -1,0 +1,43 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(209, 232, 174);
+}
+.h2{
+    font-family: monospace;
+    
+} 
+.logo {
+    width: 200px;  /* Adjust width */
+    height: auto;   /* Maintain aspect ratio */
+    display: block; /* Ensures it renders correctly */
+    margin: auto;   /* Centers the image */
+    border-radius: 10px; /* Optional: Rounded corners */
+    object-fit: cover; /* Ensures proper scaling */
+}
+
+.home-title {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
+.home-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    color: greenyellow;
+    background-color: #719f68;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+  
+.home-button:hover {
+    background-color: #298a0c;
+}
+  
